@@ -1,1 +1,1 @@
-html-css-course-1
+Main branch for HTML&CSS learning
