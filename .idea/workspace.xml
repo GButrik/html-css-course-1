@@ -19,13 +19,30 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:hw-1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/hw-2" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a91cff40-1715-4521-9e69-9820a62f715e" name="Default Changelist" comment="Финальная версия страницы ДЗ." />
+    <list default="true" id="7ef83abe-f8ad-42e4-aba2-d57cad915c36" name="Default Changelist" comment="Финальная версия страницы ДЗ.">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/html-css-course-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-2/catalogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW-2/catalogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-2/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW-2/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW-2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Books.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Carnegie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Grey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Sharma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
+    <list id="053a346d-39ef-44b5-b93b-53a260c04fa7" name="Revert &quot;Финальная версия страницы ДЗ.&quot;" comment="Revert &quot;Финальная версия страницы ДЗ.&quot;&#10;&#10;This reverts commit 9b126679" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hw-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602602922203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ДЗ #2, без картинок-ссылок">
+      <created>1603051105840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603051105841</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Финальная версия страницы ДЗ.">
+      <created>1603051954312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603051954312</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +126,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="hw-1" />
+                        <option value="origin/hw-2" />
                       </list>
                     </value>
                   </entry>
@@ -106,8 +137,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="ДЗ #2, без картинок-ссылок" />
     <MESSAGE value="Финальная версия страницы ДЗ." />
     <option name="LAST_COMMIT_MESSAGE" value="Финальная версия страницы ДЗ." />
   </component>
@@ -124,21 +157,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1602596271064" />
+    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1603051953391">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1603051953391" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1602595375180">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602595375180" />
+    <state x="438" y="191" key="MultipleFileMergeDialog" timestamp="1603052297147">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="438" y="191" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1603052297147" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1602595190392">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602595190392" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1602602929816">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1603052493087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602602929816" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602597738215">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1603052493087" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1603053063738">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602597738215" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1603053063738" />
   </component>
 </project>
