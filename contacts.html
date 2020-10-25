@@ -24,27 +24,35 @@
 <h3>Напишите отзыв:</h3>
 <form action="#">
 	<fieldset>
-	<legend class="form"><b>Форма отправки сообщения</b></legend>
+		<legend class="form"><b>Форма отправки сообщения</b></legend>
 		<input type="text" placeholder="Ваше имя" class="input"><br>
 		<input type="email" placeholder="Ваш e-mail" class="input"><br>
 		<input type="text" placeholder="Тема отзыва" class="input"><br>
-	<br>
+		<br>
 		<textarea cols="32" rows="7" placeholder="Введите ваш текст здесь..." class="textarea"></textarea><br><br>
 		<b>Предпочитаемый жанр книг:</b>
-	<br>
-	<input type="checkbox"> Поэзия
-	<input type="checkbox"> Классика
-	<input type="checkbox"> Русские
-	<input type="checkbox"> Зарубежные
-	<br>
-	<input type="checkbox"> Детективы
-	<input type="checkbox"> Фантастика
-	<input type="checkbox"> Приключения
-	<input type="checkbox"> Другое
-	<br>
-	<br>
-	<button type="submit">Отправить</button>
-	<button type="reset">Сброс</button>
+		<br>
+		<input type="checkbox" id="poetry">
+		<label for="poetry">Поэзия</label>
+		<input type="checkbox" id="classic">
+		<label for="classic">Классика</label>
+		<input type="checkbox" id="russian">
+		<label for="russian">Русские</label>
+		<input type="checkbox" id="foreign">
+		<label for="foreign">Зарубежные</label>
+		<br>
+		<input type="checkbox" id="detective">
+		<label for="detective">Детективы</label>
+		<input type="checkbox" id="fantastic">
+		<label for="fantastic">Фантастика</label>
+		<input type="checkbox" id="adventure">
+		<label for="adventure">Приключения</label>
+		<input type="checkbox" id="other">
+		<label for="other">Другое</label>
+		<br>
+		<br>
+		<button type="submit">Отправить</button>
+		<button type="reset">Сброс</button>
 	</fieldset>
 </form>
 <h3>Свяжитесь с нами:</h3>
