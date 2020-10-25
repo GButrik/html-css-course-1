@@ -80,8 +80,7 @@ h3 { /* Стиль заголовка H3 */
 
 .book-cover { /* Стиль картинок описания товара */
     vertical-align: center;
-    border-radius: 80px;
-    box-shadow: 0 0 0 3px #f6fff8, 0 0 13px #333;
+    box-shadow: 0 0 0 3px #f6fff8, 0 0 10px #333;
 }
 
 .book-head { /* Стиль столбцов описания товара */
