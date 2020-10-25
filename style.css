@@ -1,72 +1,100 @@
-body {
+body { /* Цвет фона сайта */
     background-color: #f6fff8;
 }
 
-a {
-     color: black;
-     font-family: Georgia, sans-serif;
-     font-weight: bold;
-     text-decoration: none;
- }
+a { /* Стиль ссылок */
+    color: black;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-p {
+p { /* Стиль абзацев */
     color: black;
     font-family: Georgia, sans-serif;
     font-size: 18px;
 }
 
-.logo {
+.logo { /* Стиль лого сайта */
     text-align: center;
 }
 
-.book-description {
-    color: black;
+.header { /* Стиль шапки сайта */
+
+}
+
+.footer { /* Стиль подвала сайта */
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-description { /* Стиль текста описания товара */
+    color: #000000;
     font-family: Georgia, sans-serif;
     font-size: 18px;
 }
 
-.menu {
+.book-description:first-letter { /* Стиль первой буквы абзаца */
+    color: #0c2138;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Georgia, sans-serif;
+}
+
+.menu { /* Стиль меню */
+    font-size: 20px;
+    padding-left: 35px;
     list-style-type: none;
-    margin: 30px;
-    padding: 5px;
     list-style-image: url('content/Check-mark.png');
 }
 
-h1, h2, h3, .form {
+.menu li a:hover { /* Стиль наведения на ссылку меню */
+    color: #007c96;
+}
+
+.menu li a:active { /* Стиль нажатой ссылки меню */
+    color: #ff6c70;
+}
+
+h1, h2, h3, .form { /* Стиль заголовков */
     font-family: Georgia, sans-serif;
     font-weight: bold;
 }
 
-h1 {
+h1 { /* Стиль заголовка H1 */
     color: #FF686C;
     font-size: 40px;
     text-align: center;
 }
 
-h2 {
+h2 { /* Стиль заголовка H2 */
     color: #da221e;
     font-size: 25px;
 }
-h3 {
-    color: #007C96;
+
+h3 { /* Стиль заголовка H3 */
+    color: #266bb5;
     font-size: 25px;
     background-color: #def7fe;
 }
 
-.book-cover {
+.book-cover { /* Стиль картинок описания товара */
+    vertical-align: center;
     border-radius: 80px;
     box-shadow: 0 0 0 3px #f6fff8, 0 0 13px #333;
 }
 
-.book-head {
-    background: #bbeebb;
+.book-head { /* Стиль столбцов описания товара */
+    background: #e2f9d2;
+    text-align: center;
 }
 
-.book-price {
-    background: #b5f4b5;
+.book-price { /* Стиль столбцов цен */
+    background: #e2f9d2;
+    text-align: center;
 }
 
-.input, .textarea {
+.input, .textarea { /* Стиль полей ввода имени, e-mail */
     color: black;
     font-family: Georgia, sans-serif;
     font-size: 15px;
@@ -74,12 +102,34 @@ h3 {
     height: 15px;
 }
 
-.textarea {
-    width: 242px;
-    height: 125px;
+.input[type="email"]:focus { /* Поведение поля ввода e-mail */
+    background: #dff7fe;
+    color: #090d47;
 }
 
-.form {
-    color: black;
+input[type="text"] { /* Поведение поля ввода имени, темы отзыва */
+    text-transform: capitalize;
+}
+
+.textarea { /* Стиль поля ввода темы отзыва */
+    width: 242px;
+    height: 125px;
+    text-transform: capitalize;
+}
+
+.form { /* Стиль формы отправки сообщения */
+    color: #000000;
     font-size: 20px;
+}
+
+table { /* Общий стиль таблицы каталога книг */
+    font-family: Georgia, sans-serif;
+    border: 1px solid #000000;
+    width: 100%;
+}
+
+tr, td { /* Стиль столбцов и колонок таблицы */
+    border: 1px solid #000000;
+    vertical-align: center;
+    padding: 5px;
 }
