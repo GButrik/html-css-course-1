@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 880px;
+    background-image: url("content/slider/slider-img.jpg");
+    padding-left: 98px;
+    padding-right: 211px;
+}
+
+.logo {
+    background-image: url("content/slider/logo.png");
+    margin-top: 63px;
+    float: left;
+    width: 185px;
+    height: 22px;
+}
+
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-top: 67px;
+}
+
+.menu:after {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 23px;
+    float: right;
+    position: relative;
+    left: 10px;
+    background-image: url("content/slider/search.png");
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 13px;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+}
+
+.menu .active {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: #212121 solid 3px;
+}
+
+.menu a:hover {
+    color: #212121;
+    border-bottom: #212121 solid 3px;
+}
+
+.text {
+    margin-top: 288px;
+    width: 477px;
+}
+
+.text a {
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.green {
+    /* Style for "TRENDING" */
+    width: 109px;
+    height: 13px;
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.big {
+    width: 435px;
+    height: 43px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.text p {
+    width: 458px;
+    height: 38px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
