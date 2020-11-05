@@ -9,6 +9,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -57,7 +61,6 @@ body {
     font-style: normal;
     padding: 10px 13px;
     letter-spacing: 1.4px;
-    text-decoration: none;
 }
 
 .menu .active {
@@ -84,12 +87,10 @@ body {
     background-color: #ffffff;
     display: block;
     text-align: center;
-    text-decoration: none;
     line-height: 45px;
 }
 
 .green {
-    /* Style for "TRENDING" */
     width: 109px;
     height: 13px;
     color: #43a047;
@@ -125,6 +126,21 @@ body {
     letter-spacing: normal;
     text-align: left;
     margin-bottom: 32px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #212121;
+    opacity: 0.2;
+    border-radius: 50%;
+    float: left;
+}
+
+.circle .active {
+    width: 30px;
+    height: 40px;
+    background-color: #212121;
 }
 
 .clearfix:after {
