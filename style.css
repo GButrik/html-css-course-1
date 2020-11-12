@@ -437,3 +437,137 @@ p {
     position: absolute;
     margin: 228px 259px 0 50px;
 }
+
+.catalogue_new_trending {
+    height: 1109px;
+    width: 1366px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalogue_new_trending_head {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 119px 0 0 98px;
+    position: absolute;
+}
+
+.catalogue_new_trending_button {
+    width: 158px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: transparent;
+    text-decoration: none;
+    color: #212121;
+    display: flex;
+    margin-left: 1090px;
+    margin-top: 138px;
+}
+
+.catalogue_new_trending_button_arrow {
+    position: relative;
+}
+
+.catalogue_new_trending_button_arrow::after {
+    position: absolute;
+    top: 6px;
+    left: 19px;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-left: 3px solid #212121;
+    border-bottom: 3px solid #212121;
+    transform: rotate(-135deg);
+}
+
+.catalogue_new_trending_products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 98px 0 98px;
+}
+
+.catalogue_new_trending_products img {
+    width: 370px;
+    height: 370px;
+    cursor: pointer;
+}
+
+.catalogue_new_trending_products img:hover {
+    box-shadow: 0 5px 10px 1px rgba(76, 76, 76, 0.35);
+    transition: .3s;
+}
+
+.catalogue_new_slider {
+    background-image: url("content/slider/slider2.jpg");
+    height: 800px;
+    width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalogue_new_slider_text {
+    width: 458px;
+    display: flex;
+    flex-direction: column;
+    margin: 287px 0 0 98px;
+}
+
+.catalogue_new_slider_text_red {
+    font-weight: 700;
+    color: #e53935;;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.catalogue_new_slider_text_big {
+    color: #212121;
+    font-weight: 300;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding: 10px 15px 22px 8px;
+}
+
+.catalogue_new_slider_text_button {
+    width: 212px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    letter-spacing: 3.6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 61px 16px 31px;
+    color: #212121;
+}
+
+.catalogue_new_slider_text_button_arrow {
+    position: relative;
+}
+
+.catalogue_new_slider_text_button_arrow::after {
+    position: absolute;
+    top: 5px;
+    left: 19px;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-left: 3px solid #212121;
+    border-bottom: 3px solid #212121;
+    transform: rotate(-135deg);
+}
+
+.catalogue_new_slider_text_button:hover {
+    box-shadow: none;
+    top: 3px;
+    position: relative;
+}
